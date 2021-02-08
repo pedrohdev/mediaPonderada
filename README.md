@@ -2,7 +2,7 @@
 ## Calculadora de Média Aritmética Ponderada :nerd_face:
 ### :computer: Tecnologias utilizadas
 
-- Vue.js
+- Html, Css e Javascript
 
 ### :pencil2: Tarefas:
 
