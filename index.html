@@ -9,12 +9,68 @@
     </head>
     <body>
 
-        <div id="app" class="container ">
-            <Formulario></Formulario>
-        </div>
+        <div class="container">
+            
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <h1 align="center">Calculadora de Média Aritmética Ponderada 🤓💻</h1>
+                </div>
+            </div>
+            
+            <div class="row mt-3">
+                <div class="col-sm">
+                    <label for="valor" class="form-label">Valor</label>
+                    <input type="number" class="form-control" id="valor" placeholder="Adicionar Valor">
+                </div>
+                <div class="col-sm">
+                    <label for="peso" class="form-label">Peso</label>
+                    <input type="number" class="form-control" id="peso" placeholder="Adicionar Peso">
+                </div>
+                <div style="flex: none;" class="col mt-3">
+                    <button id="add" style="width: 100%" class="btn btn-primary" type="button">Adicionar</button>
+                </div>
+                
+                <div class="col-sm mt-3" id="alert"></div>
+            </div>
+            
+            <div align="center" class="row mt-3">
+                <div class="col-sm">
+                    <button type="button" id="calculate" class="btn btn-danger">Calcular</button>
+                    <button type="button" id="clean" class="btn btn-secondary">Limpar</button>
+                </div>
+            </div>
 
+            <div class="row mt-3">
+                <div id="result" class="col-sm">
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="flex: none;" class="col mt-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Valor</th>
+                                <th scope="col">Peso</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+    
+            </div>
+            
+        </div>
+        
         <noscript>Seu browser não suporta Javascript :(</noscript>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-        <script src="./src/js/app.js"></script>
+
+        <script src="./src/js/calculator.class.js"></script>
+        <script>
+            new Calculator()
+        </script>
+
     </body>
 </html>
