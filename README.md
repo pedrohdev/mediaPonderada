@@ -1,5 +1,6 @@
 ![](example/example.gif)
 ## Calculadora de Média Aritmética Ponderada :nerd_face:
+> ### [https://media-ponderada.vercel.app/](https://media-ponderada.vercel.app/)
 ### :computer: Tecnologias utilizadas
 
 - Html, Css e Javascript
