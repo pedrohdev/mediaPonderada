@@ -70,8 +70,6 @@ class Calculator {
         peso = parseFloat(peso)
 
         this.rows.push({valor, peso})
-
-        console.log(this.rows)
     }
 
     addMsg(msg){
