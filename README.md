@@ -6,4 +6,7 @@
 
 ### :pencil2: Tarefas:
 
-- [ ] Estruturação
+- [x] Estruturar projeto
+- [x] Filtrar dados
+- [x] Calcular média aritmética ponderada
+- [x] Finalizar Projeto
